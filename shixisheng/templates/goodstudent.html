@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>goodstudent</title>
+
+    <link href="./static/css/develpixel/bootstrap.min.css" rel="stylesheet">
+    <link href="./static/css/develpixel/style-dark.css" rel="stylesheet">
+    <link id="clscheme" href="./static/css/develpixel/light-blue.css" rel="stylesheet">
+    <script src="./static/css/develpixel/modernizr.custom.js"></script>
+</head>
+<body>
+
+<!-- BEGIN TESTIMONIAL -->
+<div class="section-fill">
+    <div class="fill-wrapper" style="background:#FCF7F7;">
+        <div class="section-title">
+            <h2 class="white medium">
+                Trusted by
+                <strong style="font-size:38px;font-weight:900;">35,
+                    <span class="" data-from="111" data-to="487" data-speed="800">487</span>
+                </strong>&nbsp;creative agencies.
+            </h2>
+        </div>
+        <div class="spacer medium"></div>
+        <div class="section-inner">
+            <div class="section-testimonial">
+                <ul class="testimonial-list">
+                    {%for i in f%}
+                    <li class="testimonial-item">
+                        <a href="javascript:;" data-rel="{{i.id}}" class="current"></a>
+                        <div class="testi-link"></div>
+                        <img class="testimonial-icon" src="http://demo.develpixel.com/rindu/template/images/quote-icon.png" alt="quote-icon">
+                        <img src="/media/{{i.img}}" alt="img-1">
+                    </li>
+                    {%endfor%}
+                                                                                                    
+                </ul>
+            </div>
+            <div class="spacer medium"></div>
+            <div class="testimonial-slider" style="overflow: hidden; height: 176px;">
+                <ul style="display: block; position: relative; width: 9000040px; margin-left: -740px; margin-top: 0px;">
+                    {%for i in f%}
+                    <li style="float: left; list-style: none; display: block; position: relative; width: 700px;">
+                        <!-- Testi -->
+                        <p>{{i.name}}</p>
+                        <span class="testimonial-author">{{i.click}}</span>
+                    </li>
+                    {%endfor%}
+                    </ul>
+            </div><span id="controls"></span>
+
+        </div>
+    </div>
+</div>
+<!-- END TESTIMONIAL -->
+
+
+    <script src="./static/js/develpixel/jquery-1.10.2.min.js"></script>
+    <script src="./static/js/develpixel/grid.js"></script>
+    <script src="./static/js/develpixel/bootstrap.min.js"></script>
+    <script src="./static/js/develpixel/jquery.superslides.min.js"></script>
+    <script src="./static/js/develpixel/jquery.backtotop.js"></script>
+    <script src="./static/js/develpixel/jquery.parallax.js"></script>
+    <script src="./static/js/develpixel/jquery.backgroundvideo.js"></script>
+    <script src="./static/js/develpixel/venobox.min.js"></script>
+    <script src="./static/js/develpixel/jquery.sudoslider.min.js"></script>
+    <script src="./static/js/develpixel/main.js"></script>
+
+</body>
+</html>

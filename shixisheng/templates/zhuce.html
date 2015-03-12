@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>               
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="Keywords" content="我的搜狐,sns,Blog,Blogger,搜狐,Sohu,网络日志" />
+<meta name="robots" content="index,follow" />
+<script src="http://s2.suc.itc.cn/core/js/others/passport/passport.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://js6.pp.sohu.com.cn/core/js/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var HCP='http://js2.pp.sohu.com.cn/ppp/js/common/',
+HMP='http://js4.pp.sohu.com.cn/ppp/js/module/',
+HTP='http://js5.pp.sohu.com.cn/ppp/js/tool/',
+BLOG_SP='http://js3.pp.sohu.com.cn/ppp/blog/js_ppp/',
+TP='http://js2.pp.sohu.com.cn/ppp/group/toolbar/';
+var JSPATH={util:{common:HCP+'common.js',module:HMP,tool:HTP},blog:{_path:BLOG_SP}};
+</script> 
+
+<link href="http://s3.suc.itc.cn/member/d/reg.v20130701181100.css" rel="stylesheet" type="text/css"/>
+    <title>注册-实习生</title>
+</head>
+<body class="regBg">
+
+<div id="wrapper" class="area">
+        <div id="head" class="regHead"><img alt="" src=""></div>
+
+<div id="content" class="content">
+    
+    <!--outside-->
+    <div class="outside">
+        <h2 class="title">使用您常用的帐号登录</h2>
+        <div class="icon-list">
+            <ul>
+                <li class="qq"><a target="_blank"  href="http://plus.sohu.com/spassport/bind/40000001/qq?ru=http://www.sohu.com"></a></li>
+                <li class="weibo"><a target="_blank"  href="http://plus.sohu.com/spassport/bind/40000001/weibo?ru=http://www.sohu.com"></a></li>
+                <li class="renren"><a target="_blank"  href="http://plus.sohu.com/spassport/bind/40000001/renren?ru=http://www.sohu.com"></a></li>
+                <li class="baidu"><a target="_blank"  href="http://plus.sohu.com/spassport/bind/40000001/baidu?ru=http://www.sohu.com"></a></li>
+                <li class="taobao"><a target="_blank"  href="http://plus.sohu.com/spassport/bind/40000001/taobao?ru=http://www.sohu.com"></a></li>
+                
+                <li class="weixin"><a target="_blank" href="http://plus.sohu.com/spassport/bind/40000001/wechat?ru=http://www.sohu.com" style="background-image: none;text-indent:0px;" data-log-click="login_by_weixin"><img style="width:41px;height:41px" src="http://photo.pic.sohu.com/images/zhuce/wechatlogo.png"></a></li>
+                <li class="kaixin"><a target="_blank"  href="https://passport.sohu.com/openlogin/request.action?provider=kaixin&appid=1019&ru=http://www.sohu.com"></a></li>
+                <li class="zhifubao"><a target="_blank"  href="https://passport.sohu.com/openlogin/request.action?provider=alipay&appid=1019&ru=http://www.sohu.com"></a></li>
+                <li class="feixin"><a target="_blank"  href="https://passport.sohu.com/openlogin/request.action?provider=feixin&appid=1019&ru=http://www.sohu.com"></a></li>
+                <li class="douban"><a target="_blank"  href="http://plus.sohu.com/spassport/bind/40000001/douban?ru=http://www.sohu.com"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--outside end-->
+
+    <div class="left">
+        
+         <div class="reg-left-top">
+            <p>已有帐号？<a href="http://i.sohu.com">马上登录</a></p>
+            <h2>快速注册我的实习生帐号</h2>
+        </div>
+
+        
+        <div class="regAreaWar">
+        
+        <form id="regform" name="regform" method="post" action="/login/sreg.do?_input_encode=utf-8" autocomplete="off" disableautocomplete>
+            <input name="bru" type="hidden" value='http://www.sohu.com' />
+            <input name="default_page" type="hidden" value='' />
+            <input name="from" type="hidden" value='' />
+            <input name="sappId" type="hidden" value='' />
+            <input name="source" type="hidden" value='' />
+        <ul class="reg clear" id="reg">
+            
+            <li class="regEmailArea">
+                <div id="inputEmailWar" class="inputArea">
+                    <label for="user"><span class="icon-must">*</span>帐号：</label><input type="text" style="width: 160px;" tabindex="1" name="user" id="user" class="sohuField" maxlength="16"><span style="display: inline-block; font-size: 16px; line-height: 16px; margin: 10px 0px 0px 5px;"></span>
+                    <!--<label for="user"><span class="icon-must">*</span>帐号：</label><input  maxlength="16"  type="text" class="sohuField" id="user" name="user" tabindex="1">-->
+                    <div class="reg-alart">帐号不可修改，用于登录、设置域名、查找及@好友</div>
+                </div>
+<!--                 <div id="regEmailWar" class="inputArea hidden">
+                    <label for="regEmail">邮箱名：</label><input type="text" class="sohuField" id="regEmail" name="regEmail" tabindex="1">
+                    <span class="sohuSuffix">@sohu.com</span>
+                </div> -->
+            </li>
+            <li>
+                <div class="inputArea">
+                    <label for="nickname"><span class="icon-must">*</span>用户名：</label><input maxlength="20" class="sohuField" id="nickname" name="nickname" autocomplete="off" disableautocomplete="" tabindex="2" type="text">
+                    <div class="reg-alart">用户名可修改，用于个人的形象展示</div>
+                </div>
+            </li>
+            <li>
+                <div class="inputArea">
+                    <label for="passwd"><span class="icon-must">*</span>密码：</label><input type="text" class="sohuField" id="passwd" name="passwd" tabindex="3">
+                </div>
+                <div class="psArea">
+                <span></span>密码强度：<div class="ptp week"></div><em class="ptt">弱</em>
+                <div class="tip"></div>
+                </div>
+            </li>
+      
+            
+            <li style="height:57px;">
+                <div class="inputArea chkcode">
+                    <label for="vcode"><span class="icon-must">*</span>验证码：</label><input type="text" class="sohuField" id="vcode" name="vcode" value="" autocomplete="off" tabindex="4">
+                    <input type="hidden" id="vcodeHidden" name="vcodeEn" value=""/>
+                    <div id="chkPicDiv" class="chkPic">
+                        <img width="100" alt="" src="http://i.sohu.com/vcode/register/?nocache=1421301763011" data-log-click="register_exchange">
+                        <span>看不清，<a href="javascript:void(0);" data-log-click="register_exchange">换一张</a></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="checkAreaWar">
+                    <label for="agree">
+                        <input type="checkbox" id="agree" name="agree" >同意实习生网络服务使用协议 <a href="http://passport.sohu.com/web/serviceitem.jsp" target="_blank">用户注册协议</a>
+                    </label>
+                </div>
+                
+                    <div id="agreeTip" class="tip error" style="display: block;"><span class="icon"></span>需要先同意《实习生网络服务使用协议》才能继续注册！</div>
+                
+            </li>
+            <li>
+                
+                <label for=""></label>
+                <input type="submit" class="regBtn" value="立即加入" data-log-click="register_now" tabindex="6">
+            </li>
+        </ul>
+        </form>
+        </div>
+        
+    </div>
+     <!--
+    <div class="right">
+        <div class="title">在我的搜狐，您可以享受以下服务 </div>
+        <h2><span class="i1"></span>博客</h2>
+        <p>记录生活抒发感想，用文字留住记忆 </p>
+
+        <h2><span class="i2"></span>照片</h2>
+        <p>1G免费空间，与好友分享精彩瞬间</p>
+        <h2><span class="i3"></span>视频</h2>
+        <p>用视频记录您的多彩生活</p>
+        <h2><span class="i4"></span>微博</h2>
+        <p>写下您此时此刻的心情，与好友分享</p>
+
+        <div class="more">更多精彩应用不断添加中...</div>
+    </div>
+       ----->
+    <div class="area clear"></div>
+</div>
+<script type="text/javascript" src="http://s.suc.itc.cn/combo.action?v.20130701181100&r=/member/clicklog.js|/member/reg.js&c=utf-8&p=mysohu" charset="utf-8"></script>
+
+
+                </div>
+                
+<script type="text/javascript">
+document.write('<scr' + 'ipt type="text/javascript" src="http://js.sohu.com/pv.js" ></scr' + 'ipt>')
+</script>
+<div id="foot" class="Area">
+                <a target="_blank" href="http://z.i.sohu.com/help/helpqa.html">帮助</a> - 
+                <a target="_blank" href="http://sohucallcenter.blog.sohu.com/">客服中心</a> - 
+                <a target="_blank" href="http://q.sohu.com/group/23063">意见建议</a> - 
+                <a href="mailto:jubao@contact.sohu.com">举报</a>
+                <a target="_blank" href="http://www.sohu.com">实习生首页</a> 
+<br>Copyright &copy; 2014 sxs.com Inc. All Rights Reserved. 实习公司
+<span class=unline><a href="http://corp.sohu.com/s2007/copyright/" target=_blank>版权所有</a></span>
+</div>
+
+        </body>
+</html>

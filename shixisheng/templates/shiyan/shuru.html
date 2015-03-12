@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<p><div>
+			<div class="screen-reader-response"></div>
+				<form name="" action="/upload" method="post" class="wpcf7-form" enctype="multipart/form-data" >
+					{%csrf_token%}
+					<div class="contact-form">
+					<div class="form-group">
+						<span class="wpcf7-form-control-wrap text-449">
+						<input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control input-lg" id="nameinput" aria-required="true" aria-invalid="false" placeholder="姓名" /></span>
+					</div>
+					<div class="form-group">
+						<span class="wpcf7-form-control-wrap textarea-173">
+						<textarea name="click" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="内容...">
+					</textarea>
+					</span>
+					</div>
+					<div>
+						<input name="img"type="file">
+					</div>
+					<div class="form-group">
+						<input type="submit" value="发送" class="wpcf7-form-control wpcf7-submit btn btn-white btn-big btn-round" />
+					</div>
+					
+					</div>
+			<div class="wpcf7-response-output wpcf7-display-none"></div>
+				</form>
+			</div>
+		</p>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
